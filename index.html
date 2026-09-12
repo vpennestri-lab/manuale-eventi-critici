@@ -231,7 +231,7 @@ const DATA = [
 ];
 
 function pad(n){ return String(n).padStart(3,"0"); }
-function imgPath(n){ return "img/page-" + pad(n) + ".jpg"; }
+function imgPath(n){ return "page-" + pad(n) + ".jpg"; }
 
 const sectionsEl = document.getElementById("sections");
 sectionsEl.innerHTML = DATA.map(sec => `
